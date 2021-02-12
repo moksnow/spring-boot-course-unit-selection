@@ -1,0 +1,80 @@
+
+/*
+Popr 1.0
+Copyright (c) 2015 Tipue
+Popr is released under the MIT License
+http://www.tipue.com/popr
+*/
+
+
+.popr
+{
+     cursor: pointer;
+}
+.popr a
+{
+     color: #8aa4af;
+     text-decoration: none;
+     border: 0;
+     /* top: 20px; */
+}
+.popr-box
+{
+     display: none;
+}
+.popr_content
+{background-color: #2c3b41;padding: 7px 0;margin: 0;direction: rtl;text-align: right;line-height: 37px;}
+.popr-item
+{
+     font: 300 14px/1.7 'B Nazanin','Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #8aa4af;
+     padding: 10px 29px 5px 29px;
+     height: 38px;
+}
+.popr-item:hover
+{
+     color: #fff;
+
+}
+
+.popr_container_left
+{
+     display: none;
+     position: absolute;
+     margin-top: -33px;
+     z-index: 1000;
+     float: left;
+     left: -142px;
+     width: 235px;
+}
+
+.popr_point_left
+{
+  position: relative;
+	background: #2c3b41;
+	border: 1px solid #2c3b41;
+  border-radius: 3px;
+}
+
+.popr_point_left:after
+{
+	border-left-color: #fff;
+	border-width: 8px;
+	left: 100%;
+  margin-left: -14px;
+margin-top: -46%;
+}
+.popr-head{
+  color: #fff;
+  background-color: #1E282C;
+  height: 40px;
+  width: 235px;
+  margin-top: -18px;
+  margin-right: -1px;
+  border-bottom: 2px solid #0a0a0a;
+  border-top-left-radius: 5px;
+}
+.popr-header {
+  margin-right:20px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,27 @@
+.introjs-tooltipbuttons {
+  text-align: left;
+}
+.introjs-skipbutton {
+  margin-left: 5px;
+}
+.introjs-tooltip {
+  direction: rtl;
+  font-size: 15px;
+  font-family: "B Nazanin";
+  background-color: #323737;
+  color: #b8c7ce;
+}
+.introjs-prevbutton {
+  border: 1px solid #d4d4d4;
+  border-left: none;
+  -webkit-border-radius: 0 0.2em 0.2em 0;
+  -moz-border-radius: 0 0.2em 0.2em 0;
+  border-radius: 0 0.2em 0.2em 0;
+
+}
+.introjs-nextbutton {
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 0.2em 0 0 0.2em;
+  -moz-border-radius: 0.2em 0 0 0.2em;
+  border-radius: 0.2em 0 0 0.2em;
+}
